@@ -1,11 +1,13 @@
 {
-  "name": "no-browser-template",
+  "name": "testing-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Writing tests with jest as practice",
   "main": "src/script.js",
   "type": "module",
   "scripts": {
     "test": "jest",
+    "test:watch": "jest --watch",
+    "test:watchAll": "jest --watchAll",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
